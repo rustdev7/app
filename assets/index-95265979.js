@@ -152,7 +152,7 @@ Nuevos Modelos de Negocio: La industria de los e-books podría desarrollar model
   </div>
 `},b=()=>{let e=document.createElement("div"),i=document.createElement("div");i.id="divDatos1",i.innerHTML=`
  
-   <p> WsArg: +54 1134795400 </p>
+   
    <p> Twitter: @Baires.js  </p>
    <p> Instagram: @Bairesjs </p>
   
