@@ -41,7 +41,7 @@ let divBanner2 = document.createElement("div");
     nav1.id = "myDivNav";
     document.body.appendChild(nav1);
   
-   
+   /*
     var navDiv1 = document.createElement("div");
     navDiv1.className = "mydivClass";
     navDiv1.id = "btnInicio";
@@ -49,7 +49,7 @@ let divBanner2 = document.createElement("div");
     nav1.appendChild(navDiv1)
     document.getElementById("btnInicio").addEventListener("click", ()=>{inicioJavaScript()});
     //document.body.appendChild(navDiv1);
-
+   */ 
     var navDiv5 = document.createElement("div");
     navDiv5.className = "mydivClass";
     navDiv5.id = "btnCursos";
@@ -67,7 +67,7 @@ let divBanner2 = document.createElement("div");
     //document.body.appendChild(navDiv1);
 
 
-
+    /*
     var navDiv2 = document.createElement("div");
     navDiv2.className = "mydivClass";
     navDiv2.id = "btnQsomos";
@@ -75,11 +75,12 @@ let divBanner2 = document.createElement("div");
     nav1.appendChild(navDiv2)
     document.getElementById("btnQsomos").addEventListener("click", ()=>{ebooksFunction()});
     //document.body.appendChild(navDiv2);
+    */
 
     var navDiv3 = document.createElement("div");
     navDiv3.className = "mydivClass";
     navDiv3.id = "btnDescargas";
-    navDiv3.innerHTML = 'Descargas'
+    navDiv3.innerHTML = 'Links'
     nav1.appendChild(navDiv3)
     document.getElementById("btnDescargas").addEventListener("click", ()=>{descargas()});
     //document.body.appendChild(navDiv3);
@@ -87,7 +88,7 @@ let divBanner2 = document.createElement("div");
     var navDiv4 = document.createElement("div");
     navDiv4.className = "mydivClass";
     navDiv4.id = "btnContacto";
-    navDiv4.innerHTML = 'Repositorio'
+    navDiv4.innerHTML = 'Free App'
     nav1.appendChild(navDiv4)
     document.getElementById("btnContacto").addEventListener("click", ()=>{repositorio()});
     //document.body.appendChild(navDiv4);
@@ -234,17 +235,33 @@ en programación con Python, lo que te abrirá nuevas oportunidades en el campo 
 
     document.querySelector('#myDivNav2').innerHTML = `
   
-  <h4>Clases y soporte adicional</h4>
-  Este conjunto de cursos, videos y manuales está diseñado para brindarte una introducción sólida a los
-  fundamentos de la programación. Sin embargo, entendemos que el aprendizaje puede ser un viaje desafiante
-  y que a veces puedes necesitar soporte extra. Es por eso que ofrecemos clases y soporte adicional para
-  complementar tu experiencia de aprendizaje. No dudes en contactarnos si necesitas ayuda o tienes
+  <h4>Soporte Online</h4>
+  Autodidacta o Autoaprendizaje se refiere a la práctica de adquirir conocimientos o habilidades por
+  cuenta propia, sin la ayuda directa de un maestro o instructor tradicional. Un autodidacta es alguien que se
+  enseña a sí mismo utilizando recursos disponibles como libros, internet, cursos en línea, tutoriales,
+  experimentación personal y cualquier otra fuente de información accesible. El autoaprendizaje implica una
+  gran autonomía y motivación intrínseca por parte del individuo para explorar y adquirir conocimiento de manera
+  independiente.
+  <br><br>
+  La inteligencia artificial puede desempeñar un papel importante al proporcionar herramientas y plataformas
+  de aprendizaje personalizadas, recomendaciones de contenido relevante y retroalimentación adaptativa para
+  guiar el proceso de autoaprendizaje. Esto permite a los autodidactas explorar y adquirir conocimiento de
+  manera más eficiente y personalizada, aprovechando al máximo su autonomía y motivación intrínseca.
+  <br><br>
+  Interactuar con la inteligencia artificial de manera activa, planteando preguntas específicas y filtrando
+  la información proporcionada, puede ayudar a obtener una información más concreta y relevante para tus
+  necesidades. Al hacer preguntas más detalladas o específicas, puedes dirigir la conversación hacia áreas
+  de interés específicas o solicitar clarificaciones sobre temas particulares. Además, al filtrar la información
+  proporcionada por la IA y hacer nuevas preguntas basadas en esa información, puedes profundizar en el tema
+  y obtener una comprensión más completa. En resumen, la interacción activa con la inteligencia artificial
+  puede ser una estrategia efectiva para obtener información más precisa y concreta.
+  <br><br>
+  El aprendizaje puede ser un viaje desafiante
+  y a veces puedes necesitar soporte extra. Es por eso que ofrecemos ayuda adicional para
+  complementar tu experiencia de aprendizaje. No dudes en contactarnos si necesitas o tienes
   alguna pregunta. Estamos aquí para brindarte la orientación y el apoyo que necesitas para tener éxito en tu
   camino en el aprendizaje de programación.
-
-
-  
-    `;
+ `;
     
     }
     
