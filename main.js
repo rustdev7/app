@@ -115,21 +115,19 @@ const barraNav2 = () =>{
   let nav2 = document.createElement("div");
   nav2.id = "myDivNav2";
   nav2.innerHTML = `
-  BairesJS es un emprendimiento freelancer apasionado por la programación JavaScript.<br>
-  Su enfoque principal se centra en el desarrollo de aplicaciones web y móviles utilizando
-  esta tecnología versátil y poderosa.<br>
-  La página BairesJS sirve como plataforma central para todos sus proyectos y servicios.
+  BairesJS es un emprendimiento freelancer apasionado por la programación.<br><br>
+  Su enfoque principal se centra en el desarrollo de aplicaciones web móviles y de escritorio utilizando
+  diferentes tecnologías.<br><br>
   Los visitantes pueden explorar y descargar todo el material de forma gratuita en la cuenta
-  de GitHub.<br>
+  de GitHub que se encuentra en la sección descargas.<br><br>
   Esta transparencia y accesibilidad reflejan el compromiso de BairesJS con la comunidad y su
-  deseo de fomentar el aprendizaje y la colaboración en el campo de la programación.<br>
+  deseo de fomentar el aprendizaje Autodidacta y la colaboración en el campo de la programación.<br>
   Cada proyecto está diseñado con una cuidadosa atención a los detalles y optimizado para
-  brindar una experiencia de usuario excepcional.<br>
+  brindar una experiencia de usuario excepcional.<br><br>
   Además del desarrollo de aplicaciones, BairesJS ofrece servicios adicionales que incluyen
   la generación, edición y maquetación de ebooks, la creación de presentaciones y
-  la redacción de textos de índole general.<br>
-  BairesJS se distingue por su amplia gama de proyectos y servicios, y su enfoque 
-  en la calidad y la innovación.<br>
+  la redacción de textos de índole general.<br><br>
+  
   `
   document.body.appendChild(nav2);  
 }
