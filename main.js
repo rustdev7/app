@@ -353,12 +353,7 @@ const inicioJavaScript = () => {
     <p>Libro de politica moderna enfocado en la informática</p>
     </a>
     </div>
-    <div  class = "divItemDesc">
-    <a id="pdfLink" href="/descargas/guiDeProgramacion.pdf" download>
-        <img class ="imgDesc" src="img/portadaPb.jpg" alt="Descargar PDF" style="width: 300px; height: auto;" >
-        <p>Libro de Programacion básica en construcción</p>
-        </a>
-    </div>
+    ////////Descarga Politica digital////////////////////////
     <div  class = "divItemDesc">
     <a id="pdfLink" href="/descargas/eloquentJavaScript.pdf" download>
         <img class ="imgDesc" src="img/portadaEl.jpg" alt="Descargar PDF" style="width: 300px; height: auto;" >
