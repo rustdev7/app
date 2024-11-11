@@ -347,12 +347,7 @@ const inicioJavaScript = () => {
     document.querySelector('#myDivNav2').innerHTML=`<h4>Descargas:</h4>
     <br>
     <div id = "divImg">
-    <div class = "divItemDesc">  
-    <a id="pdfLink" href="/descargas/politicaDdigital.pdf" download>
-    <img class ="imgDesc" src="img/portadaPd.jpg" alt="Descargar PDF" style="width: 300px; height: auto;" >
-    <p>Libro de politica moderna enfocado en la informática</p>
-    </a>
-    </div>
+    
    
     <div  class = "divItemDesc">
     <a id="pdfLink" href="/descargas/eloquentJavaScript.pdf" download>
