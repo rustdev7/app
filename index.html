@@ -9,7 +9,7 @@
     
 <script type="module">
 import init, * as bindings from '/RusterDev7_app-f5f96760f9295471.js';
-const wasm = await init({ module_or_path: '/RusterDev7_app-f5f96760f9295471_bg.wasm' });
+const wasm = await init({ module_or_path: '/app/RusterDev7_app-f5f96760f9295471_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -19,10 +19,10 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script>
     
-    <link rel="stylesheet" href="/rusterdev7/public/css/style.css" />
+    <link rel="stylesheet" href="/app/public/css/style.css" />
    
 
-<link rel="modulepreload" href="/RusterDev7_app-f5f96760f9295471.js" crossorigin="anonymous" integrity="sha384-5MuHv4nXDXdDvuDbzQL3xv7w9Hk4ztRlHQYDx9GxPZwfBpEk324Ll7m67aq7RaZe"><link rel="preload" href="/RusterDev7_app-f5f96760f9295471_bg.wasm" crossorigin="anonymous" integrity="sha384-cUcnlrCgMqvv/qq7YQEXPOj6mJ1KaSfNgoRxHfg8kayzGPY9GsdBF2n+Z+Nz/0T9" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/app/RusterDev7_app-f5f96760f9295471.js" crossorigin="anonymous" integrity="sha384-5MuHv4nXDXdDvuDbzQL3xv7w9Hk4ztRlHQYDx9GxPZwfBpEk324Ll7m67aq7RaZe"><link rel="preload" href="/RusterDev7_app-f5f96760f9295471_bg.wasm" crossorigin="anonymous" integrity="sha384-cUcnlrCgMqvv/qq7YQEXPOj6mJ1KaSfNgoRxHfg8kayzGPY9GsdBF2n+Z+Nz/0T9" as="fetch" type="application/wasm"></head>
 <body>
     
 <script>"use strict";
