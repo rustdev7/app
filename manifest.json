@@ -1,0 +1,14 @@
+{
+    "name": "RustDev7",
+    "short_name": "RustDev7",
+    "icons": [{
+      "src": "/icon-256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }],
+    "lang": "en-US",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "white"
+  }
